@@ -8,7 +8,7 @@
 		<div>使用装饰者模式模拟实现面向切面编程，即提取一些辅助型的方法行为</div>
 		<div>使用装饰者，要保证使用装饰者对象完全替代被装饰者对象</div>
 		<script src="js/jquery-1.7.2.js"></script>
-		<script src="js/disk-timer.js"></script>
+		<script src="js/timer.js"></script>
 		<script>
 			// 原有的被装饰者对象
 			var testService = {
@@ -17,6 +17,7 @@
 		            this.doSubTaskB(10000);
 		            this.doSubTaskC(1000, 100);
 		        },
+
 		        doSubTaskA: function (count) {
 		            for (var i = 0; i < count; i++) {
 		            }
